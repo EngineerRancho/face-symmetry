@@ -10,7 +10,7 @@ Supports real-time face detection and symmetry analysis from live camera feed or
 
 
 # Installation
-
+## Select and Copy
     git clone https://github.com/EngineerRancho/face-symmetry.git
     cd face-symmetry
     git clone https://github.com/fenollp/data.shape_predictor_68_face_landmarks
