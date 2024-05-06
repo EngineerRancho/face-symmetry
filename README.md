@@ -8,6 +8,14 @@ Provides symmetry percentages for each facial feature, indicating the level of a
 Generates visual representations of facial features with symmetry lines overlaid on the input image.
 Supports real-time face detection and symmetry analysis from live camera feed or pre-captured images.
 
+
+# Installation
+
+    git clone https://github.com/EngineerRancho/face-symmetry.git
+    cd face-symmetry
+    pip install -r requirements.txt
+    python symmetry.py
+
 # Usage
 
 Run the script and provide the path to the image containing the face to be analyzed.
@@ -21,12 +29,6 @@ Symmetry percentages for each feature will be printed to the console, indicating
     dlib library
     OpenCV (cv2)
 
-# Installation
-
-    git clone https://github.com/EngineerRancho/face-symmetry.git
-    cd face-symmetry
-    pip install -r requirements.txt
-    python symmetry.py
 
 
    ## The dlib library for providing facial landmark detection capabilities.
