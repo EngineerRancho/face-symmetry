@@ -17,6 +17,7 @@ Supports real-time face detection and symmetry analysis from live camera feed or
     cd data.shape_predictor_68_face_landmarks
     mv shape_predictor_68_face_landmarks.dat ..
     cd ..
+    rm -rf data.shape_predictor_68_face_landmarks
     pip install -r requirements.txt
     python symmetry.py
 
